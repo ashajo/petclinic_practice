@@ -1,5 +1,8 @@
 package se.lexicon.petclinic_practice.dto;
 
+import lombok.Data;
+
+@Data
 public class OwnerDto {
     private String id;
     private String firstName;
